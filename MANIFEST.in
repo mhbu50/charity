@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include charity *.css
+recursive-include charity *.csv
+recursive-include charity *.html
+recursive-include charity *.ico
+recursive-include charity *.js
+recursive-include charity *.json
+recursive-include charity *.md
+recursive-include charity *.png
+recursive-include charity *.py
+recursive-include charity *.svg
+recursive-include charity *.txt
+recursive-exclude charity *.pyc
