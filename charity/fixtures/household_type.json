@@ -1,0 +1,65 @@
+[
+ {
+  "docstatus": 0, 
+  "doctype": "Household Type", 
+  "modified": "2017-12-26 10:20:51.655801", 
+  "name": "\u0628\u064a\u062a \u0639\u0631\u0628\u064a", 
+  "name_of_type": "\u0628\u064a\u062a \u0639\u0631\u0628\u064a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Household Type", 
+  "modified": "2017-12-27 13:33:26.887158", 
+  "name": "\u0634\u0642\u0629(\u0648\u0627\u0644\u062f\u0647)", 
+  "name_of_type": "\u0634\u0642\u0629(\u0648\u0627\u0644\u062f\u0647)"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Household Type", 
+  "modified": "2017-12-31 14:39:11.679486", 
+  "name": "\u062f\u0628\u0644\u0643\u0633", 
+  "name_of_type": "\u062f\u0628\u0644\u0643\u0633"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Household Type", 
+  "modified": "2018-01-02 09:51:30.992038", 
+  "name": "\u0633\u0643\u0646 \u0627\u0644\u0645\u062f\u0631\u0633\u0629", 
+  "name_of_type": "\u0633\u0643\u0646 \u0627\u0644\u0645\u062f\u0631\u0633\u0629 "
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Household Type", 
+  "modified": "2018-01-07 10:45:19.420356", 
+  "name": "\u0645\u0644\u062d\u0642", 
+  "name_of_type": "\u0645\u0644\u062d\u0642"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Household Type", 
+  "modified": "2018-02-17 11:25:51.520405", 
+  "name": "\u0633\u0643\u0646 \u0639\u0632\u0627\u0628", 
+  "name_of_type": "\u0633\u0643\u0646 \u0639\u0632\u0627\u0628"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Household Type", 
+  "modified": "2017-05-28 16:23:55.377802", 
+  "name": "\u0645\u0646\u0632\u0644", 
+  "name_of_type": "\u0645\u0646\u0632\u0644"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Household Type", 
+  "modified": "2017-05-28 16:24:02.329622", 
+  "name": "\u0634\u0642\u0629", 
+  "name_of_type": "\u0634\u0642\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Household Type", 
+  "modified": "2017-05-28 16:25:56.961658", 
+  "name": "\u0641\u064a\u0644\u0627", 
+  "name_of_type": "\u0641\u064a\u0644\u0627"
+ }
+]

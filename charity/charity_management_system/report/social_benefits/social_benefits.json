@@ -1,0 +1,28 @@
+{
+ "add_total_row": 0, 
+ "creation": "2017-07-23 03:38:58.517434", 
+ "disabled": 1, 
+ "docstatus": 0, 
+ "doctype": "Report", 
+ "idx": 0, 
+ "is_standard": "Yes", 
+ "modified": "2018-05-06 18:15:46.377246", 
+ "modified_by": "Administrator", 
+ "module": "charity management system", 
+ "name": "Social benefits", 
+ "owner": "Administrator", 
+ "ref_doctype": "Cheque Specification", 
+ "report_name": "Social benefits", 
+ "report_type": "Script Report", 
+ "roles": [
+  {
+   "role": "System Manager"
+  }, 
+  {
+   "role": "Client Relations"
+  }, 
+  {
+   "role": "Research Committee"
+  }
+ ]
+}

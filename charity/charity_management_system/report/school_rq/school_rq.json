@@ -1,0 +1,35 @@
+{
+ "add_total_row": 0, 
+ "creation": "2017-08-21 17:36:16.225532", 
+ "disabled": 1, 
+ "docstatus": 0, 
+ "doctype": "Report", 
+ "idx": 0, 
+ "is_standard": "Yes", 
+ "json": "{\"add_total_row\": 0, \"sort_by\": \"Request Form.modified\", \"add_totals_row\": 0, \"sort_order\": \"desc\", \"sort_by_next\": null, \"filters\": [], \"sort_order_next\": \"desc\", \"columns\": [[\"owner\", \"Request Form\"], [\"name\", \"Request Form\"], [\"file_number\", \"Request Form\"], [\"full_name\", \"Request Form\"], [\"national_id\", \"Request Form\"], [\"expense\", \"school table\"], [\"amount\", \"school table\"], [\"workflow_state\", \"Request Form\"]]}", 
+ "modified": "2018-05-06 18:15:25.054768", 
+ "modified_by": "Administrator", 
+ "module": "charity management system", 
+ "name": "School RQ", 
+ "owner": "Administrator", 
+ "ref_doctype": "Request Form", 
+ "report_name": "School RQ", 
+ "report_type": "Report Builder", 
+ "roles": [
+  {
+   "role": "System Manager"
+  }, 
+  {
+   "role": "Research Committee"
+  }, 
+  {
+   "role": "Researcher"
+  }, 
+  {
+   "role": "Client Relations"
+  }, 
+  {
+   "role": "Reception"
+  }
+ ]
+}

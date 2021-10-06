@@ -1,0 +1,36 @@
+{
+ "add_total_row": 0, 
+ "creation": "2018-10-17 14:29:17.789516", 
+ "disabled": 0, 
+ "docstatus": 0, 
+ "doctype": "Report", 
+ "idx": 0, 
+ "is_standard": "Yes", 
+ "modified": "2018-10-25 14:43:54.341700", 
+ "modified_by": "Administrator", 
+ "module": "charity management system", 
+ "name": "Latest Request", 
+ "owner": "Administrator", 
+ "prepared_report": 0, 
+ "query": "SELECT rf.name as 'Request Number:Link/Request Form:150',\n rf.file_number as 'File Number:Data:150',\n rf.full_name as 'Full Name:Read Only:200',\n MAX(date_of_request) as 'Date of Request:Date:100',\n DATEDIFF(NOW(),rf.date_of_request) as 'Days Spent:Int:150' \nFROM `tabRequest Form` rf \nWHERE rf.file_number NOT IN \n(SELECT rf2.file_number FROM `tabRequest Form` rf2 WHERE  DATEDIFF(NOW(),date_of_request) <= 182) \nGROUP BY rf.file_number \nORDER BY rf.date_of_request DESC;", 
+ "ref_doctype": "Request Form", 
+ "report_name": "Latest Request", 
+ "report_type": "Query Report", 
+ "roles": [
+  {
+   "role": "System Manager"
+  }, 
+  {
+   "role": "Research Committee"
+  }, 
+  {
+   "role": "Client Relations"
+  }, 
+  {
+   "role": "Request Read-Only"
+  }, 
+  {
+   "role": "Request Modifier"
+  }
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "add_total_row": 0, 
+ "apply_user_permissions": 0, 
+ "creation": "2018-01-05 18:36:22.404208", 
+ "disabled": 0, 
+ "docstatus": 0, 
+ "doctype": "Report", 
+ "idx": 0, 
+ "is_standard": "Yes", 
+ "modified": "2018-10-29 19:12:00.011702", 
+ "modified_by": "Administrator", 
+ "module": "charity management system", 
+ "name": "Overdue Request", 
+ "owner": "Administrator", 
+ "query": "SELECT distinct rf.name as 'Request Number:Link/Request Form:150',\nrf.file_number as 'File Number:Data:150',\nrf.full_name as 'Full Name:Read Only:200',\nrf.date_of_request as 'Date of Request:Date:100',\n DATEDIFF(NOW(),date_of_request) as 'Overdue:Int:150',\nrt.researcher_name as 'Researcher Name'\nFROM `tabRequest Form` rf LEFT JOIN `tabResearcher table` rt  ON rt.name = (SELECT trt.name\n    FROM `tabResearcher table` trt\n    WHERE rf.name = trt.parent \n    AND idx = 1\n    LIMIT 1)\nWHERE DATEDIFF(NOW(),date_of_request) >= 30 \nAND rf.workflow_state IN ('Initiate', 'Review Request', 'Awaiting Researcher', 'Approved By Researcher')", 
+ "ref_doctype": "Request Form", 
+ "report_name": "Overdue Request", 
+ "report_type": "Query Report", 
+ "roles": [
+  {
+   "role": "System Manager"
+  }, 
+  {
+   "role": "Client Relations"
+  }, 
+  {
+   "role": "Research Committee"
+  }, 
+  {
+   "role": "Request Modifier"
+  }, 
+  {
+   "role": "Request Read-Only"
+  }
+ ]
+}

@@ -1,0 +1,240 @@
+[
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-05-28 16:12:45.986403", 
+  "name": "\u0632\u0648\u062c\u0629 \u0627\u0644\u0627\u0628\u0646", 
+  "relation_name": "\u0632\u0648\u062c\u0629 \u0627\u0644\u0627\u0628\u0646"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-12-23 13:06:13.259677", 
+  "name": "\u0627\u0628\u0646\u0629 \u0632\u0648\u062c\u0647", 
+  "relation_name": "\u0627\u0628\u0646\u0629 \u0632\u0648\u062c\u0647"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2018-03-17 11:29:01.878695", 
+  "name": "\u0623\u0628\u0646", 
+  "relation_name": "\u0623\u0628\u0646"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-12-27 13:07:26.343067", 
+  "name": "\u0632\u0648\u062c", 
+  "relation_name": "\u0632\u0648\u062c"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-12-28 11:52:08.297345", 
+  "name": "\u0627\u0628", 
+  "relation_name": "\u0627\u0628"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-12-28 13:54:01.743420", 
+  "name": "\u0627\u062e\u062a", 
+  "relation_name": "\u0627\u062e\u062a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-12-28 13:55:10.339211", 
+  "name": "\u0627\u062e", 
+  "relation_name": "\u0627\u062e"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-12-31 13:12:04.117265", 
+  "name": "\u0632\u0648\u062c\u0647\u0627", 
+  "relation_name": "\u0632\u0648\u062c\u0647\u0627"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2018-01-02 14:04:01.411437", 
+  "name": "\u0645\u062a\u0632\u0648\u062c\u0647", 
+  "relation_name": "\u0645\u062a\u0632\u0648\u062c\u0647"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2018-01-07 14:03:31.782247", 
+  "name": "\u0632\u0648\u062c\u0629 \u0627\u062e\u064a\u0647", 
+  "relation_name": "\u0632\u0648\u062c\u0629 \u0627\u062e\u064a\u0647 "
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2018-01-10 12:07:21.736775", 
+  "name": "\u0627\u0645", 
+  "relation_name": "\u0627\u0645"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2018-01-13 13:26:52.919741", 
+  "name": "\u0627\u0645 \u0627\u0644\u0632\u0648\u062c", 
+  "relation_name": "\u0627\u0645 \u0627\u0644\u0632\u0648\u062c"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-12-04 10:49:07.621229", 
+  "name": "1", 
+  "relation_name": "1"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-05-28 16:08:48.767132", 
+  "name": "\u0623\u0628", 
+  "relation_name": "\u0623\u0628"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-05-28 16:08:55.661797", 
+  "name": "\u0627\u0628\u0646", 
+  "relation_name": "\u0627\u0628\u0646"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-05-28 16:09:20.109837", 
+  "name": "\u0627\u0628\u0646 \u0627\u0644\u0623\u062e", 
+  "relation_name": "\u0627\u0628\u0646 \u0627\u0644\u0623\u062e"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-05-28 16:09:26.338048", 
+  "name": "\u0625\u0628\u0646\u0629 \u0627\u0644\u0623\u062e", 
+  "relation_name": "\u0625\u0628\u0646\u0629 \u0627\u0644\u0623\u062e"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-05-28 16:09:34.677921", 
+  "name": "\u0623\u062e", 
+  "relation_name": "\u0623\u062e"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-05-28 16:09:40.137792", 
+  "name": "\u0623\u062e\u062a", 
+  "relation_name": "\u0623\u062e\u062a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-05-28 16:09:52.235721", 
+  "name": "\u0639\u0645", 
+  "relation_name": "\u0639\u0645"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-05-28 16:09:57.556667", 
+  "name": "\u0639\u0645\u0629", 
+  "relation_name": "\u0639\u0645\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-05-28 16:10:07.565291", 
+  "name": "\u0623\u0645", 
+  "relation_name": "\u0623\u0645"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-05-28 16:10:15.210246", 
+  "name": "\u0628\u0646\u062a", 
+  "relation_name": "\u0628\u0646\u062a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-05-28 16:10:33.176112", 
+  "name": "\u062c\u062f", 
+  "relation_name": "\u062c\u062f"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-05-28 16:10:40.486030", 
+  "name": "\u062c\u062f\u0629", 
+  "relation_name": "\u062c\u062f\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-05-28 16:11:18.278122", 
+  "name": "\u062d\u0641\u064a\u062f", 
+  "relation_name": "\u062d\u0641\u064a\u062f"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-05-28 16:11:28.483882", 
+  "name": "\u062d\u0641\u064a\u062f\u0629", 
+  "relation_name": "\u062d\u0641\u064a\u062f\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-05-28 16:12:18.276227", 
+  "name": "\u0632\u0648\u062c \u0627\u0644\u0625\u0628\u0646\u0629", 
+  "relation_name": "\u0632\u0648\u062c \u0627\u0644\u0625\u0628\u0646\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-05-28 16:12:33.331351", 
+  "name": "\u0632\u0648\u062c\u0629", 
+  "relation_name": "\u0632\u0648\u062c\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-05-28 16:12:45.986403", 
+  "name": "\u0627\u0628\u0646\u0629 \u0628\u0627\u0644\u0646\u0633\u0628", 
+  "relation_name": "\u0627\u0628\u0646\u0629 \u0628\u0627\u0644\u0646\u0633\u0628"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-06-19 17:18:34.784998", 
+  "name": "\u062e\u0627\u0644", 
+  "relation_name": "\u062e\u0627\u0644"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-06-19 17:18:42.421612", 
+  "name": "\u062e\u0627\u0644\u0629", 
+  "relation_name": "\u062e\u0627\u0644\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-06-19 17:18:57.220343", 
+  "name": "\u0627\u0628\u0646 \u0627\u0644\u0623\u062e\u062a", 
+  "relation_name": "\u0627\u0628\u0646 \u0627\u0644\u0623\u062e\u062a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Client Relation", 
+  "modified": "2017-06-19 17:19:09.760263", 
+  "name": "\u0625\u0628\u0646\u0629 \u0627\u0644\u0623\u062e\u062a", 
+  "relation_name": "\u0625\u0628\u0646\u0629 \u0627\u0644\u0623\u062e\u062a"
+ }
+]

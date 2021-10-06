@@ -1,0 +1,272 @@
+[
+ {
+  "docstatus": 0, 
+  "doctype": "Workflow", 
+  "document_type": "Request Form", 
+  "is_active": 1, 
+  "modified": "2018-10-30 12:02:50.610462", 
+  "name": "Request Workflow", 
+  "override_status": 0, 
+  "send_email_alert": 0, 
+  "states": [
+   {
+    "allow_edit": "Request Modifier", 
+    "doc_status": "0", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Initiate", 
+    "update_field": "", 
+    "update_value": ""
+   }, 
+   {
+    "allow_edit": "Client Relations", 
+    "doc_status": "0", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Review Request", 
+    "update_field": "research_sec", 
+    "update_value": "1"
+   }, 
+   {
+    "allow_edit": "Client Relations", 
+    "doc_status": "0", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Review Request", 
+    "update_field": "read_only_sec", 
+    "update_value": "1"
+   }, 
+   {
+    "allow_edit": "Researcher", 
+    "doc_status": "0", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Awaiting Researcher", 
+    "update_field": null, 
+    "update_value": null
+   }, 
+   {
+    "allow_edit": "Researcher", 
+    "doc_status": "0", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Approved By Researcher", 
+    "update_field": null, 
+    "update_value": null
+   }, 
+   {
+    "allow_edit": "Client Relations", 
+    "doc_status": "0", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Approved By Researcher", 
+    "update_field": null, 
+    "update_value": null
+   }, 
+   {
+    "allow_edit": "Client Relations", 
+    "doc_status": "0", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Case Study", 
+    "update_field": "recommend_sec", 
+    "update_value": "1"
+   }, 
+   {
+    "allow_edit": "Client Relations", 
+    "doc_status": "0", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Approved For Coupons Only", 
+    "update_field": null, 
+    "update_value": null
+   }, 
+   {
+    "allow_edit": "Client Relations", 
+    "doc_status": "0", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Approved for Cheques Only", 
+    "update_field": null, 
+    "update_value": null
+   }, 
+   {
+    "allow_edit": "Client Relations", 
+    "doc_status": "0", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Approved for Marked Fields", 
+    "update_field": null, 
+    "update_value": null
+   }, 
+   {
+    "allow_edit": "Client Relations", 
+    "doc_status": "0", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Approved for Full Aid", 
+    "update_field": null, 
+    "update_value": null
+   }, 
+   {
+    "allow_edit": "Client Relations", 
+    "doc_status": "1", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Aid Received", 
+    "update_field": null, 
+    "update_value": null
+   }, 
+   {
+    "allow_edit": "Client Relations", 
+    "doc_status": "0", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Rejected", 
+    "update_field": null, 
+    "update_value": null
+   }, 
+   {
+    "allow_edit": "Research Committee", 
+    "doc_status": "2", 
+    "message": null, 
+    "next_action_email_template": null, 
+    "state": "Cancelled", 
+    "update_field": null, 
+    "update_value": null
+   }
+  ], 
+  "transitions": [
+   {
+    "action": "Initiate", 
+    "allow_self_approval": 0, 
+    "allowed": "Request Modifier", 
+    "condition": null, 
+    "next_state": "Review Request", 
+    "state": "Initiate"
+   }, 
+   {
+    "action": "Transfer to Researcher", 
+    "allow_self_approval": 0, 
+    "allowed": "Client Relations", 
+    "condition": null, 
+    "next_state": "Awaiting Researcher", 
+    "state": "Review Request"
+   }, 
+   {
+    "action": "Reject", 
+    "allow_self_approval": 0, 
+    "allowed": "Client Relations", 
+    "condition": null, 
+    "next_state": "Rejected", 
+    "state": "Review Request"
+   }, 
+   {
+    "action": "Approve", 
+    "allow_self_approval": 0, 
+    "allowed": "Researcher", 
+    "condition": null, 
+    "next_state": "Approved By Researcher", 
+    "state": "Awaiting Researcher"
+   }, 
+   {
+    "action": "Reject", 
+    "allow_self_approval": 0, 
+    "allowed": "Researcher", 
+    "condition": null, 
+    "next_state": "Review Request", 
+    "state": "Awaiting Researcher"
+   }, 
+   {
+    "action": "Approve", 
+    "allow_self_approval": 0, 
+    "allowed": "Client Relations", 
+    "condition": null, 
+    "next_state": "Case Study", 
+    "state": "Approved By Researcher"
+   }, 
+   {
+    "action": "Approve", 
+    "allow_self_approval": 1, 
+    "allowed": "Research Committee", 
+    "condition": null, 
+    "next_state": "Case Study", 
+    "state": "Approved By Researcher"
+   }, 
+   {
+    "action": "Approve for Full Aid", 
+    "allow_self_approval": 0, 
+    "allowed": "Client Relations", 
+    "condition": null, 
+    "next_state": "Approved for Full Aid", 
+    "state": "Case Study"
+   }, 
+   {
+    "action": "Approve for Cheques", 
+    "allow_self_approval": 0, 
+    "allowed": "Client Relations", 
+    "condition": null, 
+    "next_state": "Approved for Cheques Only", 
+    "state": "Case Study"
+   }, 
+   {
+    "action": "Approve for Coupons", 
+    "allow_self_approval": 0, 
+    "allowed": "Client Relations", 
+    "condition": null, 
+    "next_state": "Approved For Coupons Only", 
+    "state": "Case Study"
+   }, 
+   {
+    "action": "Approve for Marked Fields", 
+    "allow_self_approval": 0, 
+    "allowed": "Client Relations", 
+    "condition": null, 
+    "next_state": "Approved for Marked Fields", 
+    "state": "Case Study"
+   }, 
+   {
+    "action": "Full Aid Received", 
+    "allow_self_approval": 0, 
+    "allowed": "Client Relations", 
+    "condition": null, 
+    "next_state": "Aid Received", 
+    "state": "Approved for Full Aid"
+   }, 
+   {
+    "action": "Full Aid Received", 
+    "allow_self_approval": 0, 
+    "allowed": "Client Relations", 
+    "condition": null, 
+    "next_state": "Aid Received", 
+    "state": "Approved for Marked Fields"
+   }, 
+   {
+    "action": "Coupons Received", 
+    "allow_self_approval": 0, 
+    "allowed": "Client Relations", 
+    "condition": null, 
+    "next_state": "Aid Received", 
+    "state": "Approved For Coupons Only"
+   }, 
+   {
+    "action": "Cheques Received", 
+    "allow_self_approval": 0, 
+    "allowed": "Client Relations", 
+    "condition": null, 
+    "next_state": "Aid Received", 
+    "state": "Approved for Cheques Only"
+   }, 
+   {
+    "action": "Cancel", 
+    "allow_self_approval": 0, 
+    "allowed": "Research Committee", 
+    "condition": null, 
+    "next_state": "Cancelled", 
+    "state": "Aid Received"
+   }
+  ], 
+  "workflow_name": "Request Workflow", 
+  "workflow_state_field": "workflow_state"
+ }
+]

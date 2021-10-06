@@ -1,0 +1,415 @@
+[
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-12-12 10:26:31.487152", 
+  "name": "\u0645\u0624\u0648\u0646\u0647 \u0645\u0646 \u0627\u0644\u0641\u0631\u0639", 
+  "name_of_request": "\u0645\u0624\u0648\u0646\u0647 \u0645\u0646 \u0627\u0644\u0641\u0631\u0639"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-12-13 04:18:44.397068", 
+  "name": "\u0633\u062f\u0627\u062f \u062f\u064a\u0648\u0646", 
+  "name_of_request": "\u0633\u062f\u0627\u062f \u062f\u064a\u0648\u0646"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-12-14 12:26:35.676304", 
+  "name": "\u0639\u0627\u0645\u0647", 
+  "name_of_request": "\u0639\u0627\u0645\u0647"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-12-16 09:32:17.520618", 
+  "name": "\u0627\u0646\u0636\u0645\u0627\u0645", 
+  "name_of_request": "\u0627\u0646\u0636\u0645\u0627\u0645"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-12-16 09:32:59.770453", 
+  "name": "\u0623\u062b\u0627\u062b", 
+  "name_of_request": "\u0623\u062b\u0627\u062b"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-12-16 09:42:41.926793", 
+  "name": "\u0627\u064a\u062c\u0627\u0631", 
+  "name_of_request": "\u0627\u064a\u062c\u0627\u0631"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-12-16 09:45:36.852877", 
+  "name": "\u0641\u0648\u0627\u062a\u064a\u0631 \u062e\u062f\u0645\u0627\u062a", 
+  "name_of_request": "\u0641\u0648\u0627\u062a\u064a\u0631 \u062e\u062f\u0645\u0627\u062a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-12-16 10:28:16.424461", 
+  "name": "\u0645\u0633\u0627\u0639\u062f\u0629 \u062a\u0639\u0644\u064a\u0645\u064a\u0629", 
+  "name_of_request": "\u0645\u0633\u0627\u0639\u062f\u0629 \u062a\u0639\u0644\u064a\u0645\u064a\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-12-16 10:55:51.073720", 
+  "name": "\u0643\u0641\u0627\u0644\u0629 \u0627\u064a\u062a\u0627\u0645", 
+  "name_of_request": "\u0643\u0641\u0627\u0644\u0629 \u0627\u064a\u062a\u0627\u0645"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-12-16 10:57:46.846746", 
+  "name": "\u0633\u062e\u0627\u0646 \u0645\u0627\u0621", 
+  "name_of_request": "\u0633\u062e\u0627\u0646 \u0645\u0627\u0621"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-12-16 10:59:59.075272", 
+  "name": "\u0627\u064a\u0642\u0627\u0641 \u0645\u0644\u0641", 
+  "name_of_request": "\u0627\u064a\u0642\u0627\u0641 \u0645\u0644\u0641"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-12-16 11:05:49.717981", 
+  "name": "\u062a\u0628\u062f\u064a\u0644 \u0627\u0633\u0645 \u0645\u0644\u0641", 
+  "name_of_request": "\u062a\u0628\u062f\u064a\u0644 \u0627\u0633\u0645 \u0645\u0644\u0641"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-12-16 11:57:16.011945", 
+  "name": "\u0643\u0627\u0628\u0648\u0646 \u063a\u0630\u0627\u0626\u064a\u0647", 
+  "name_of_request": "\u0643\u0627\u0628\u0648\u0646 \u063a\u0630\u0627\u0626\u064a\u0647"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-12-16 11:59:09.843045", 
+  "name": "\u063a\u0633\u0627\u0644\u0647", 
+  "name_of_request": "\u063a\u0633\u0627\u0644\u0647"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2018-06-13 17:53:56.006951", 
+  "name": "\u0627\u0639\u0627\u062f\u0629 \u0628\u062d\u062b \u0645\u0639 \u0627\u0644\u0632\u064a\u0627\u0631\u0629", 
+  "name_of_request": "\u0627\u0639\u0627\u062f\u0629 \u0628\u062d\u062b \u0645\u0639 \u0627\u0644\u0632\u064a\u0627\u0631\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-12-16 12:16:01.890170", 
+  "name": "\u0635\u064a\u0627\u0646\u0629 \u0645\u0646\u0632\u0644", 
+  "name_of_request": "\u0635\u064a\u0627\u0646\u0629 \u0645\u0646\u0632\u0644"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-12-16 12:23:05.655654", 
+  "name": "\u0645\u0631\u062a\u0628\u0647 \u0648\u0645\u0644\u062d\u0642\u0627\u062a\u0647\u0627", 
+  "name_of_request": "\u0645\u0631\u062a\u0628\u0647 \u0648\u0645\u0644\u062d\u0642\u0627\u062a\u0647\u0627"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-12-16 12:26:44.983150", 
+  "name": "\u0641\u0631\u0646", 
+  "name_of_request": "\u0641\u0631\u0646"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-12-16 12:31:15.777854", 
+  "name": "\u0635\u064a\u0627\u0646\u0629 \u0633\u064a\u0627\u0631\u0647", 
+  "name_of_request": "\u0635\u064a\u0627\u0646\u0629 \u0633\u064a\u0627\u0631\u0647"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-12-17 13:56:18.863362", 
+  "name": "\u0633\u062c\u0627\u062f\u0629", 
+  "name_of_request": "\u0633\u062c\u0627\u062f\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-12-17 13:56:38.925185", 
+  "name": "\u0628\u0631\u0627\u062f \u0645\u0627\u0621", 
+  "name_of_request": "\u0628\u0631\u0627\u062f \u0645\u0627\u0621"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-12-17 14:00:19.214918", 
+  "name": "\u062b\u0644\u0627\u062c\u0629", 
+  "name_of_request": "\u062b\u0644\u0627\u062c\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2018-01-08 13:42:25.128793", 
+  "name": "\u0645\u0633\u0627\u0639\u062f\u0629 \u0632\u0648\u0627\u062c", 
+  "name_of_request": "\u0645\u0633\u0627\u0639\u062f\u0629 \u0632\u0648\u0627\u062c"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2018-01-27 13:14:10.614317", 
+  "name": "\u0645\u0643\u064a\u0641 \u0633\u0628\u0644\u062a", 
+  "name_of_request": "\u0645\u0643\u064a\u0641 \u0633\u0628\u0644\u062a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2018-01-28 14:10:32.719498", 
+  "name": "\u0641\u0631\u064a\u0632\u0631", 
+  "name_of_request": "\u0641\u0631\u064a\u0632\u0631"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2018-01-28 14:10:55.347074", 
+  "name": "\u0628\u0637\u0627\u0646\u064a\u0627\u062a", 
+  "name_of_request": "\u0628\u0637\u0627\u0646\u064a\u0627\u062a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2018-01-28 14:11:13.663957", 
+  "name": "\u0645\u062f\u0641\u0626\u0629", 
+  "name_of_request": "\u0645\u062f\u0641\u0626\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2018-02-08 12:12:48.689453", 
+  "name": "\u0633\u062f\u0627\u062f \u0642\u0633\u0637 \u0645\u0646\u0632\u0644", 
+  "name_of_request": "\u0633\u062f\u0627\u062f \u0642\u0633\u0637 \u0645\u0646\u0632\u0644"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2018-06-13 17:52:51.036988", 
+  "name": "\u0625\u0639\u0627\u062f\u0647 \u062f\u0631\u0627\u0633\u0629 \u0627\u0644\u062d\u0627\u0644\u0629 \u0628\u062f\u0648\u0646 \u0632\u064a\u0627\u0631\u0629", 
+  "name_of_request": "\u0625\u0639\u0627\u062f\u0647 \u062f\u0631\u0627\u0633\u0629 \u0627\u0644\u062d\u0627\u0644\u0629 \u0628\u062f\u0648\u0646 \u0632\u064a\u0627\u0631\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2018-02-11 14:30:08.109604", 
+  "name": "\u0644\u0627\u0628\u062a\u0648\u0628", 
+  "name_of_request": "\u0644\u0627\u0628\u062a\u0648\u0628 "
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2018-02-12 14:27:19.333815", 
+  "name": "\u062f\u0631\u0627\u0633\u0629 \u062d\u0627\u0644\u0629 \u0645\u0646 \u0627\u0644\u0633\u0627\u062f\u0629 \u0648\u0627\u0644\u0645\u0634\u0627\u0626\u062e", 
+  "name_of_request": "\u062f\u0631\u0627\u0633\u0629 \u062d\u0627\u0644\u0629 \u0645\u0646 \u0627\u0644\u0633\u0627\u062f\u0629 \u0648\u0627\u0644\u0645\u0634\u0627\u0626\u062e"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2018-02-18 12:19:32.210861", 
+  "name": "\u0627\u0644\u0645\u0624\u0646\u0647 +\u0627\u0644\u0643\u0633\u0648\u0647", 
+  "name_of_request": "\u0627\u0644\u0645\u0624\u0646\u0647 +\u0627\u0644\u0643\u0633\u0648\u0647"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2018-02-25 10:00:29.230123", 
+  "name": "\u0645\u0643\u064a\u0641 \u0634\u0628\u0627\u0643", 
+  "name_of_request": "\u0645\u0643\u064a\u0641 \u0634\u0628\u0627\u0643"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2018-02-25 13:31:13.317291", 
+  "name": "\u062a\u0644\u0641\u0627\u0632", 
+  "name_of_request": "\u062a\u0644\u0641\u0627\u0632"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2018-02-25 13:31:30.382891", 
+  "name": "\u0645\u062c\u0641\u0641\u0629 \u0645\u0644\u0627\u0628\u0633", 
+  "name_of_request": "\u0645\u062c\u0641\u0641\u0629 \u0645\u0644\u0627\u0628\u0633"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2018-02-27 11:12:11.370115", 
+  "name": "\u062f\u0648\u0644\u0627\u0628  \u0645\u0644\u0627\u0628\u0633", 
+  "name_of_request": "\u062f\u0648\u0644\u0627\u0628  \u0645\u0644\u0627\u0628\u0633"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2018-03-13 14:46:43.584715", 
+  "name": "\u0633\u062f\u0627\u062f \u0627\u0642\u0633\u0627\u0637 \u0633\u064a\u0627\u0631\u0629", 
+  "name_of_request": "\u0633\u062f\u0627\u062f \u0627\u0642\u0633\u0627\u0637 \u0633\u064a\u0627\u0631\u0629 "
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2018-04-14 13:27:30.237271", 
+  "name": "\u063a\u0644\u0627\u064a\u0629", 
+  "name_of_request": "\u063a\u0644\u0627\u064a\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2018-05-16 12:04:17.565046", 
+  "name": "\u0645\u0633\u0627\u0639\u062f\u0629 \u0646\u0642\u062f\u064a\u0629", 
+  "name_of_request": "\u0645\u0633\u0627\u0639\u062f\u0629 \u0646\u0642\u062f\u064a\u0629 "
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-12-13 16:51:41.703493", 
+  "name": "\u0645\u0624\u0646\u0647", 
+  "name_of_request": "\u0645\u0624\u0646\u0647"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-12-18 16:19:24.357778", 
+  "name": "j", 
+  "name_of_request": "j"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-12-19 19:31:48.057343", 
+  "name": "\u062a\u062c\u0631\u0628\u0629 \u0627\u0636\u0627\u0641\u0629 \u0645\u0633\u0627\u0639\u062f\u0647", 
+  "name_of_request": "\u062a\u062c\u0631\u0628\u0629 \u0627\u0636\u0627\u0641\u0629 \u0645\u0633\u0627\u0639\u062f\u0647"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-05-28 16:17:30.961479", 
+  "name": "\u0623\u062c\u0627\u0631", 
+  "name_of_request": "\u0623\u062c\u0627\u0631"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-05-28 16:17:40.297541", 
+  "name": "\u0632\u0648\u0627\u062c", 
+  "name_of_request": "\u0632\u0648\u0627\u062c"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-05-28 16:17:50.690867", 
+  "name": "\u0635\u062d\u064a\u0629", 
+  "name_of_request": "\u0635\u062d\u064a\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-05-28 16:18:02.652404", 
+  "name": "\u0643\u0648\u0628\u0648\u0646\u0627\u062a \u0627\u0644\u0623\u0643\u0644", 
+  "name_of_request": "\u0643\u0648\u0628\u0648\u0646\u0627\u062a \u0627\u0644\u0623\u0643\u0644"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-05-28 16:18:31.303403", 
+  "name": "\u0627\u0644\u0628\u062d\u062b \u0639\u0646 \u0634\u0642\u0629", 
+  "name_of_request": "\u0627\u0644\u0628\u062d\u062b \u0639\u0646 \u0634\u0642\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-05-28 16:18:48.501403", 
+  "name": "\u062f\u0641\u0639 \u0627\u0644\u062f\u064a\u0648\u0646", 
+  "name_of_request": "\u062f\u0641\u0639 \u0627\u0644\u062f\u064a\u0648\u0646"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-05-28 16:18:56.719834", 
+  "name": "\u0643\u0648\u0628\u0648\u0646\u0627\u062a \u0645\u0644\u0627\u0628\u0633", 
+  "name_of_request": "\u0643\u0648\u0628\u0648\u0646\u0627\u062a \u0645\u0644\u0627\u0628\u0633"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-05-28 16:19:05.674391", 
+  "name": "\u0643\u0648\u0628\u0648\u0646\u0627\u062a \u0645\u0637\u0628\u062e", 
+  "name_of_request": "\u0643\u0648\u0628\u0648\u0646\u0627\u062a \u0645\u0637\u0628\u062e"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-05-28 16:19:13.859990", 
+  "name": "\u0645\u0635\u0631\u0648\u0641\u0627\u062a \u0645\u0627\u0644\u064a\u0629", 
+  "name_of_request": "\u0645\u0635\u0631\u0648\u0641\u0627\u062a \u0645\u0627\u0644\u064a\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-05-28 16:19:22.561504", 
+  "name": "\u0645\u0635\u0631\u0648\u0641\u0627\u062a \u0645\u062f\u0631\u0633\u064a\u0629", 
+  "name_of_request": "\u0645\u0635\u0631\u0648\u0641\u0627\u062a \u0645\u062f\u0631\u0633\u064a\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-06-13 16:28:20.610145", 
+  "name": "\u0623\u062c\u0647\u0632\u0629 / \u0623\u062b\u0627\u062b", 
+  "name_of_request": "\u0623\u062c\u0647\u0632\u0629 / \u0623\u062b\u0627\u062b"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-07-02 12:41:49.551184", 
+  "name": "\u0633\u062f\u0627\u062f \u0641\u0627\u062a\u0648\u0631\u0629 \u0627\u0644\u0643\u0647\u0631\u0628\u0627\u0621", 
+  "name_of_request": "\u0633\u062f\u0627\u062f \u0641\u0627\u062a\u0648\u0631\u0629 \u0627\u0644\u0643\u0647\u0631\u0628\u0627\u0621"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-07-02 12:41:57.270007", 
+  "name": "\u0642\u0631\u0636", 
+  "name_of_request": "\u0642\u0631\u0636"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-07-02 12:42:36.419449", 
+  "name": "\u0635\u064a\u0627\u0646\u0629 \u0645\u0645\u062a\u0644\u0643\u0627\u062a", 
+  "name_of_request": "\u0635\u064a\u0627\u0646\u0629 \u0645\u0645\u062a\u0644\u0643\u0627\u062a"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-07-02 12:44:09.573210", 
+  "name": "\u0623\u0642\u0633\u0627\u0637 \u0633\u064a\u0627\u0631\u0629", 
+  "name_of_request": "\u0623\u0642\u0633\u0627\u0637 \u0633\u064a\u0627\u0631\u0629"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-07-02 12:44:17.878097", 
+  "name": "\u0628\u0646\u0643 \u0627\u0644\u062a\u0633\u0644\u064a\u0641", 
+  "name_of_request": "\u0628\u0646\u0643 \u0627\u0644\u062a\u0633\u0644\u064a\u0641"
+ }, 
+ {
+  "docstatus": 0, 
+  "doctype": "Requested Aid Type", 
+  "modified": "2017-07-23 16:23:09.921731", 
+  "name": "\u0628\u0627\u0628", 
+  "name_of_request": "\u0628\u0627\u0628"
+ }
+]

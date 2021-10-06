@@ -1,0 +1,35 @@
+{
+ "add_total_row": 0, 
+ "creation": "2017-08-21 17:21:28.346955", 
+ "disabled": 1, 
+ "docstatus": 0, 
+ "doctype": "Report", 
+ "idx": 0, 
+ "is_standard": "Yes", 
+ "json": "{\"add_total_row\": 0, \"sort_by\": \"Request Form.modified\", \"add_totals_row\": 0, \"sort_order\": \"desc\", \"sort_by_next\": null, \"filters\": [], \"sort_order_next\": \"desc\", \"columns\": [[\"owner\", \"Request Form\"], [\"name\", \"Request Form\"], [\"file_number\", \"Request Form\"], [\"full_name\", \"Request Form\"], [\"national_id\", \"Request Form\"], [\"h_date_of_marriage_contract\", \"Request Form\"], [\"amount_of_dowry\", \"Request Form\"], [\"current_available_amount\", \"Request Form\"], [\"requested_amount\", \"Request Form\"], [\"term_of_marriage\", \"Marriage Terms\"], [\"workflow_state\", \"Request Form\"]]}", 
+ "modified": "2018-05-06 18:13:42.761855", 
+ "modified_by": "Administrator", 
+ "module": "charity management system", 
+ "name": "Marriage RQ", 
+ "owner": "Administrator", 
+ "ref_doctype": "Request Form", 
+ "report_name": "Marriage RQ", 
+ "report_type": "Report Builder", 
+ "roles": [
+  {
+   "role": "System Manager"
+  }, 
+  {
+   "role": "Research Committee"
+  }, 
+  {
+   "role": "Researcher"
+  }, 
+  {
+   "role": "Client Relations"
+  }, 
+  {
+   "role": "Reception"
+  }
+ ]
+}

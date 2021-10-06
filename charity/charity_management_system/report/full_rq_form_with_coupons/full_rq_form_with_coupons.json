@@ -1,0 +1,35 @@
+{
+ "add_total_row": 0, 
+ "creation": "2018-01-30 16:59:21.391156", 
+ "disabled": 1, 
+ "docstatus": 0, 
+ "doctype": "Report", 
+ "idx": 0, 
+ "is_standard": "Yes", 
+ "json": "{\"add_total_row\": 0, \"sort_by\": \"Request Form.modified\", \"add_totals_row\": 0, \"sort_order\": \"desc\", \"sort_by_next\": null, \"filters\": [], \"sort_order_next\": \"desc\", \"columns\": [[\"owner\", \"Request Form\"], [\"name\", \"Request Form\"], [\"file_number\", \"Request Form\"], [\"full_name\", \"Request Form\"], [\"national_id\", \"Request Form\"], [\"mobile_number\", \"Request Form\"], [\"h_date_of_request\", \"Request Form\"], [\"h_date_of_research\", \"Request Form\"], [\"h_research_committee_received_date\", \"Request Form\"], [\"h_date_of_meeting\", \"Request Form\"], [\"final_decision\", \"Request Form\"], [\"item\", \"Coupon\"], [\"quantity\", \"Coupon\"], [\"total\", \"Coupon\"], [\"the_company\", \"Coupon\"], [\"approved\", \"Coupon\"], [\"delivered\", \"Coupon\"]]}", 
+ "modified": "2018-05-06 18:12:23.368439", 
+ "modified_by": "Administrator", 
+ "module": "charity management system", 
+ "name": "Full RQ Form With Coupons", 
+ "owner": "Administrator", 
+ "ref_doctype": "Request Form", 
+ "report_name": "Full RQ Form With Coupons", 
+ "report_type": "Report Builder", 
+ "roles": [
+  {
+   "role": "System Manager"
+  }, 
+  {
+   "role": "Research Committee"
+  }, 
+  {
+   "role": "Researcher"
+  }, 
+  {
+   "role": "Client Relations"
+  }, 
+  {
+   "role": "Reception"
+  }
+ ]
+}
