@@ -6,14 +6,18 @@
  "engine": "InnoDB",
  "field_order": [
   "date_of_receive",
+  "date_of_receiving_blanket",
   "date_of_receiving_heaters",
-  "big_blankets",
-  "small_blankets",
-  "heaters",
-  "jackets",
   "column_break_7",
   "next_receive_date",
-  "next_receive_heaters_date"
+  "next_receiving_blanket",
+  "next_receive_heaters_date",
+  "section_break_6",
+  "big_blankets",
+  "small_blankets",
+  "column_break_9",
+  "heaters",
+  "jackets"
  ],
  "fields": [
   {
@@ -65,11 +69,29 @@
    "fieldname": "next_receive_heaters_date",
    "fieldtype": "Date",
    "label": "Next Receive Heaters Date"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_9",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "date_of_receiving_blanket",
+   "fieldtype": "Date",
+   "label": "Date of Receiving blanket"
+  },
+  {
+   "fieldname": "next_receiving_blanket",
+   "fieldtype": "Date",
+   "label": "Next Receiving blanket"
   }
  ],
  "istable": 1,
  "links": [],
- "modified": "2021-10-06 23:41:01.759010",
+ "modified": "2022-01-10 14:28:33.205678",
  "modified_by": "Administrator",
  "module": "charity management system",
  "name": "Winter Cladding Table",

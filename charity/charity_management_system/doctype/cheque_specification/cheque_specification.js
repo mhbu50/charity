@@ -22,5 +22,14 @@ frappe.ui.form.on('Cheque Specification', {
 			cur_frm.set_df_property(l.df.fieldname, "read_only", 1);
 			 });
 		}
+	},
+	setup(frm){
+		frm.set_query('request_number', function() {
+            return {
+                filters: {
+                    "file_number": frm.doc.file_number 
+                }
+            }
+        });
 	}
 });

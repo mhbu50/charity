@@ -1,6 +1,6 @@
 {
  "actions": [],
- "autoname": "AFF.###",
+ "autoname": "AFF.######",
  "creation": "2017-09-18 14:26:18.648497",
  "doctype": "DocType",
  "editable_grid": 1,
@@ -31,7 +31,7 @@
   }
  ],
  "links": [],
- "modified": "2021-10-06 23:45:13.166666",
+ "modified": "2021-11-14 20:00:13.412736",
  "modified_by": "Administrator",
  "module": "charity management system",
  "name": "Amount For Families",

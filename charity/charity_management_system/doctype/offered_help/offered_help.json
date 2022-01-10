@@ -8,7 +8,9 @@
   "received_aid_for_client",
   "column_break_2",
   "received_date",
-  "amount"
+  "amount",
+  "coupon",
+  "cheque_specification"
  ],
  "fields": [
   {
@@ -32,11 +34,25 @@
    "fieldtype": "Int",
    "in_list_view": 1,
    "label": "Amount"
+  },
+  {
+   "fieldname": "coupon",
+   "fieldtype": "Link",
+   "label": "Coupon",
+   "options": "Coupon",
+   "read_only": 1
+  },
+  {
+   "fieldname": "cheque_specification",
+   "fieldtype": "Link",
+   "label": "Cheque Specification",
+   "options": "Cheque Specification",
+   "read_only": 1
   }
  ],
  "istable": 1,
  "links": [],
- "modified": "2021-10-06 23:45:23.774631",
+ "modified": "2021-12-20 14:45:13.212192",
  "modified_by": "Administrator",
  "module": "charity management system",
  "name": "Offered Help",

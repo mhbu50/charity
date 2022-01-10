@@ -19,7 +19,7 @@
   }
  ],
  "links": [],
- "modified": "2021-10-06 23:43:37.087806",
+ "modified": "2021-12-20 13:55:10.880714",
  "modified_by": "Administrator",
  "module": "charity management system",
  "name": "Package Types",
@@ -53,5 +53,6 @@
  "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
+ "title_field": "name_of_package_type",
  "track_changes": 1
 }

@@ -95,6 +95,7 @@
   "other_from",
   "total_monthly_income",
   "average_monthly_income",
+  "net_income",
   "offered_aid",
   "coupons",
   "coupon",
@@ -107,6 +108,7 @@
   "winter_cladding",
   "winter_cladding_table",
   "section_break10",
+  "comments_table",
   "general_knowledge_comments",
   "image",
   "research_recommendation",
@@ -183,10 +185,12 @@
    "reqd": 1
   },
   {
+   "default": "\u062f\u0631\u0627\u0633\u0629 \u062a\u062d\u062a \u0627\u0644\u0637\u0644\u0628",
    "fieldname": "joining_type",
    "fieldtype": "Select",
    "label": "Joining Type",
-   "options": "\n\u0634\u0627\u0645\u0644\n\u0643\u0641\u0627\u0644\u0629\n\u0645\u0624\u0648\u0646\u0629\n\u0645\u0648\u0642\u0648\u0641\n\u0637\u0627\u0631\u0626\u0629\n\u0634\u0627\u0645\u0644 \u0645\u0624\u0642\u062a"
+   "options": "\n\u0634\u0627\u0645\u0644\n\u0643\u0641\u0627\u0644\u0629\n\u0645\u0624\u0648\u0646\u0629\n\u0645\u0648\u0642\u0648\u0641\n\u0637\u0627\u0631\u0626\u0629\n\u0634\u0627\u0645\u0644 \u0645\u0624\u0642\u062a\n\u062f\u0631\u0627\u0633\u0629 \u062a\u062d\u062a \u0627\u0644\u0637\u0644\u0628",
+   "permlevel": 1
   },
   {
    "default": "Today",
@@ -892,11 +896,31 @@
    "default": "FN.####",
    "fieldname": "naming_series",
    "fieldtype": "Data"
+  },
+  {
+   "fieldname": "net_income",
+   "fieldtype": "Int",
+   "label": "Net Income"
+  },
+  {
+   "fieldname": "comments_table",
+   "fieldtype": "Table",
+   "label": "Comments Table",
+   "options": "General Knowledge"
   }
  ],
  "image_field": "image",
- "links": [],
- "modified": "2021-11-13 14:18:18.045650",
+ "links": [
+  {
+   "link_doctype": "Coupon",
+   "link_fieldname": "file_number"
+  },
+  {
+   "link_doctype": "Cheque Specification",
+   "link_fieldname": "file_number"
+  }
+ ],
+ "modified": "2022-01-10 14:37:02.148738",
  "modified_by": "Administrator",
  "module": "charity management system",
  "name": "Client",
@@ -912,6 +936,7 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
+   "select": 1,
    "share": 1,
    "write": 1
   },
@@ -924,6 +949,7 @@
    "read": 1,
    "report": 1,
    "role": "Reception",
+   "select": 1,
    "share": 1,
    "write": 1
   },
@@ -934,6 +960,7 @@
    "read": 1,
    "report": 1,
    "role": "Researcher",
+   "select": 1,
    "share": 1,
    "write": 1
   },
@@ -946,12 +973,27 @@
    "read": 1,
    "report": 1,
    "role": "Research Committee",
+   "select": 1,
    "share": 1,
    "write": 1
   },
   {
    "read": 1,
    "role": "Client Relations",
+   "select": 1,
+   "write": 1
+  },
+  {
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "permlevel": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Client Relations",
+   "select": 1,
+   "share": 1,
    "write": 1
   }
  ],

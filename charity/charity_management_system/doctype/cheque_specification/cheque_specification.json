@@ -18,6 +18,7 @@
   "name_of_client",
   "cheque_amount",
   "city",
+  "receipt",
   "column_break_6",
   "file_number",
   "mobile_number",
@@ -35,13 +36,15 @@
    "fieldtype": "Link",
    "in_standard_filter": 1,
    "label": "Research Decision",
-   "options": "Cheq Decision"
+   "options": "Cheq Decision",
+   "reqd": 1
   },
   {
    "fieldname": "request_number",
    "fieldtype": "Link",
    "label": "Request Number",
-   "options": "Request Form"
+   "options": "Request Form",
+   "reqd": 1
   },
   {
    "default": "Today",
@@ -89,7 +92,8 @@
    "fieldname": "cheque_amount",
    "fieldtype": "Currency",
    "in_list_view": 1,
-   "label": "Cheque Amount"
+   "label": "Cheque Amount",
+   "reqd": 1
   },
   {
    "fetch_from": "file_number.city",
@@ -160,11 +164,17 @@
    "hidden": 1,
    "label": "naming_series",
    "print_hide": 1
+  },
+  {
+   "fieldname": "receipt",
+   "fieldtype": "Data",
+   "label": "Receipt",
+   "print_hide": 1
   }
  ],
  "is_submittable": 1,
  "links": [],
- "modified": "2021-10-06 23:40:00.358146",
+ "modified": "2021-12-20 18:50:09.659226",
  "modified_by": "Administrator",
  "module": "charity management system",
  "name": "Cheque Specification",

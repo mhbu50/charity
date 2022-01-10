@@ -34,3 +34,6 @@ def stop_hoard():
         # print "utils.today() = {} client.end_date = {}".format(type(utils.today()),type(client.end_date))
         if str(client.end_date) == str(utils.today()):
             frappe.set_value('Client', client.name, 'joining_type',"موقوف")
+
+def test_print():
+    print("test")

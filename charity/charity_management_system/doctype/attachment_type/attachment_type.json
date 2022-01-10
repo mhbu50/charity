@@ -19,7 +19,7 @@
   }
  ],
  "links": [],
- "modified": "2021-10-06 23:45:52.036574",
+ "modified": "2021-12-20 19:14:04.896093",
  "modified_by": "Administrator",
  "module": "charity management system",
  "name": "Attachment Type",
@@ -77,5 +77,6 @@
  "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
+ "title_field": "type_of_attachment",
  "track_changes": 1
 }

@@ -17,6 +17,20 @@ class Coupon(Document):
         self.parentfield = 'coupon'
         self.parenttype = 'client'
 
+    def after_insert(self):
+        client = frappe.get_doc("Client",self.file_number)
+        coupons = client.offered_help
+        coupons.append({"received_aid_for_client": "{} : {}".format(self.item,self.quantity),"amount":self.total ,"received_date":self.date_of_coupon,"coupon":self.name})
+        client.set("offered_help",coupons)
+        total = 0
+        for c in coupons:
+            print("c:{}".format(frappe.as_json(c)))
+            total = total + c.get("amount")
+        client.set("total_amount",total)
+        client.save(ignore_permissions=True)
+
+
+
     def before_print(self):
         self.copy = 1
         # print "############## copy = {}".format(self.copy)
