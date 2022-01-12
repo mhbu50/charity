@@ -141,7 +141,9 @@
   "deputy_executive_director",
   "decision_of_deputy",
   "date_of_decision3",
-  "naming_series"
+  "naming_series",
+  "condition_sec_section",
+  "conditional_review"
  ],
  "fields": [
   {
@@ -907,6 +909,17 @@
    "fieldtype": "Table",
    "label": "Comments Table",
    "options": "General Knowledge"
+  },
+  {
+   "fieldname": "condition_sec_section",
+   "fieldtype": "Section Break",
+   "label": "Conditional Review"
+  },
+  {
+   "fieldname": "conditional_review",
+   "fieldtype": "Table",
+   "label": "Conditional Review",
+   "options": "Conditional Review"
   }
  ],
  "image_field": "image",
@@ -920,7 +933,7 @@
    "link_fieldname": "file_number"
   }
  ],
- "modified": "2022-01-10 14:37:02.148738",
+ "modified": "2022-01-12 13:34:40.553947",
  "modified_by": "Administrator",
  "module": "charity management system",
  "name": "Client",
