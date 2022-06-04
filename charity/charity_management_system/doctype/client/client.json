@@ -13,10 +13,10 @@
   "section_break_2",
   "full_name",
   "age",
+  "age_month",
   "place_of_birth",
   "city",
   "joining_type",
-  "start_date",
   "education_status",
   "second_mobile_no",
   "thrid_mobile_no",
@@ -27,6 +27,7 @@
   "neighborhood",
   "date_of_joining",
   "h_date_of_joining",
+  "start_date",
   "end_date",
   "family_health_status",
   "social_status",
@@ -196,7 +197,6 @@
   },
   {
    "default": "Today",
-   "depends_on": "eval:doc.joining_type==\"\u0645\u0624\u0648\u0646\u0629\"",
    "fieldname": "start_date",
    "fieldtype": "Date",
    "label": "Start Date"
@@ -264,7 +264,6 @@
    "read_only": 1
   },
   {
-   "depends_on": "eval:doc.joining_type==\"\u0645\u0624\u0648\u0646\u0629\" || doc.joining_type==\"\u0634\u0627\u0645\u0644 \u0645\u0624\u0642\u062a\"",
    "fieldname": "end_date",
    "fieldtype": "Date",
    "label": "End Date"
@@ -920,6 +919,12 @@
    "fieldtype": "Table",
    "label": "Conditional Review",
    "options": "Conditional Review"
+  },
+  {
+   "fieldname": "age_month",
+   "fieldtype": "Int",
+   "label": "Age Month",
+   "read_only": 1
   }
  ],
  "image_field": "image",
@@ -933,7 +938,7 @@
    "link_fieldname": "file_number"
   }
  ],
- "modified": "2022-01-12 13:34:40.553947",
+ "modified": "2022-06-04 19:45:46.584754",
  "modified_by": "Administrator",
  "module": "charity management system",
  "name": "Client",

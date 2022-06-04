@@ -1,6 +1,8 @@
 'use strict';
 
-var HijriJS = {
+frappe.provide("accurate.utils");
+
+accurate.utils.HijriJS = {
 
 	//Main Methods
 	currentLanguage : 'en',
@@ -14,7 +16,7 @@ var HijriJS = {
 		// default splitter
 		var arrDate = dateString.split(splitter);
 		if (arrDate.length >= 3)
-			return HijriJS.hijriToGregorian(arrDate[2], arrDate[1], arrDate[0]);
+			return accurate.utils.HijriJS.hijriToGregorian(arrDate[2], arrDate[1], arrDate[0]);
 	},
 	toHijri : function toHijri(dateString, splitter) {
 		if (!splitter)
@@ -22,7 +24,7 @@ var HijriJS = {
 		// default splitter
 		var arrDate = dateString.split(splitter);
 		if (arrDate.length >= 3)
-			return HijriJS.gregorianToHijri(arrDate[2], arrDate[1], arrDate[0]);
+			return accurate.utils.HijriJS.gregorianToHijri(arrDate[2], arrDate[1], arrDate[0]);
 	},
 	hijriToGregorian : function hijriToGregorian(year, month, day) {
 		year = parseInt(year);
@@ -37,7 +39,7 @@ var HijriJS = {
 		var ii = iy -1;
 		var iln = (ii *12)+1 + (im-1);
 		var i = iln - 16260;
-		var mcjdn = id + HijriJS.ummalqura_dat[i - 1] -1;
+		var mcjdn = id + accurate.utils.HijriJS.ummalqura_dat[i - 1] -1;
 		var cjdn = mcjdn + 2400000;
 		return this.julianToGregorian(cjdn);
 
@@ -93,8 +95,8 @@ var HijriJS = {
 
 		// the MCJDN's of the start of the lunations in the Umm al-Qura calendar are stored in 'islamcalendar_dat.js'
 
-		for (var i = 0; i < HijriJS.ummalqura_dat.length; i++) {
-			if (HijriJS.ummalqura_dat[i] > mcjdn)
+		for (var i = 0; i < accurate.utils.HijriJS.ummalqura_dat.length; i++) {
+			if (accurate.utils.HijriJS.ummalqura_dat[i] > mcjdn)
 				break;
 		}
 
@@ -104,8 +106,8 @@ var HijriJS = {
 		var ii = Math.floor((iln - 1) / 12);
 		var iy = ii + 1;
 		var im = iln - 12 * ii;
-		var id = mcjdn - HijriJS.ummalqura_dat[i - 1] + 1;
-		var ml = HijriJS.ummalqura_dat[i] - HijriJS.ummalqura_dat[i - 1];
+		var id = mcjdn - accurate.utils.HijriJS.ummalqura_dat[i - 1] + 1;
+		var ml = accurate.utils.HijriJS.ummalqura_dat[i] - accurate.utils.HijriJS.ummalqura_dat[i - 1];
 		return new this.HDate(iy, im, id);
 	},
 
@@ -137,7 +139,7 @@ var HijriJS = {
 			return this.format(this.year, this.month, this.day, format);
 		}
 		this.format = function useFormat(year, month, day, format) {
-			if (HijriJS.vlidateHijri(year, month, day)) {
+			if (accurate.utils.HijriJS.vlidateHijri(year, month, day)) {
 				var newFormat = format;
 
 				if (newFormat.indexOf("dd") !== -1)
@@ -155,8 +157,8 @@ var HijriJS = {
 				else
 					newFormat = newFormat.replace("yy", year.substr((year.length - 2), 2));
 
-				newFormat = newFormat.replace("N", HijriJS.lang[HijriJS.currentLanguage].notation);
-				return HijriJS.lang[HijriJS.currentLanguage].formatLocale(newFormat);
+				newFormat = newFormat.replace("N", accurate.utils.HijriJS.lang[accurate.utils.HijriJS.currentLanguage].notation);
+				return accurate.utils.HijriJS.lang[accurate.utils.HijriJS.currentLanguage].formatLocale(newFormat);
 			}
 		}
 	},
@@ -193,38 +195,38 @@ var HijriJS = {
 			monthShortNames : ['Muh', 'Saf', 'Rab1', 'Rab2', 'Jum1', 'Jum2', 'Raj', 'Sha\'', 'Ram', 'Shaw', 'DhuQ', 'DhuH'],
 			formatLocale : function(hDate) {// For English it will convert from currentLanguages numbers to Arabic numbers.
 				/*
-				 if (HijriJS.currentLanguage != 'en') {
+				 if (accurate.utils.HijriJS.currentLanguage != 'en') {
 				 for ( i = 0; i < hDate.length; i++) {
 				 switch(hDate[i]) {
-				 case Hijrijs.lang[HijriJS.currentLanguage].zero:
-				 hDate[i] = Hijrijs.lang['en'].zero;
+				 case accurate.utils.HijriJS.lang[accurate.utils.HijriJS.currentLanguage].zero:
+				 hDate[i] = accurate.utils.HijriJS.lang['en'].zero;
 				 break;
-				 case Hijrijs.lang[HijriJS.currentLanguage].one:
-				 hDate[i] = Hijrijs.lang['en'].one;
+				 case accurate.utils.HijriJS.lang[accurate.utils.HijriJS.currentLanguage].one:
+				 hDate[i] = accurate.utils.HijriJS.lang['en'].one;
 				 break;
-				 case Hijrijs.lang[HijriJS.currentLanguage].two:
-				 hDate[i] = Hijrijs.lang['en'].two;
+				 case accurate.utils.HijriJS.lang[accurate.utils.HijriJS.currentLanguage].two:
+				 hDate[i] = accurate.utils.HijriJS.lang['en'].two;
 				 break;
-				 case Hijrijs.lang[HijriJS.currentLanguage].three:
-				 hDate[i] = Hijrijs.lang['en'].three;
+				 case accurate.utils.HijriJS.lang[accurate.utils.HijriJS.currentLanguage].three:
+				 hDate[i] = accurate.utils.HijriJS.lang['en'].three;
 				 break;
-				 case Hijrijs.lang[HijriJS.currentLanguage].four:
-				 hDate[i] = Hijrijs.lang['en'].four;
+				 case accurate.utils.HijriJS.lang[accurate.utils.HijriJS.currentLanguage].four:
+				 hDate[i] = accurate.utils.HijriJS.lang['en'].four;
 				 break;
-				 case Hijrijs.lang[HijriJS.currentLanguage].five:
-				 hDate[i] = Hijrijs.lang['en'].five;
+				 case accurate.utils.HijriJS.lang[accurate.utils.HijriJS.currentLanguage].five:
+				 hDate[i] = accurate.utils.HijriJS.lang['en'].five;
 				 break;
-				 case Hijrijs.lang[HijriJS.currentLanguage].six:
-				 hDate[i] = Hijrijs.lang['en'].six;
+				 case accurate.utils.HijriJS.lang[accurate.utils.HijriJS.currentLanguage].six:
+				 hDate[i] = accurate.utils.HijriJS.lang['en'].six;
 				 break;
-				 case Hijrijs.lang[HijriJS.currentLanguage].seven:
-				 hDate[i] = Hijrijs.lang['en'].seven;
+				 case accurate.utils.HijriJS.lang[accurate.utils.HijriJS.currentLanguage].seven:
+				 hDate[i] = accurate.utils.HijriJS.lang['en'].seven;
 				 break;
-				 case Hijrijs.lang[HijriJS.currentLanguage].ehgit:
-				 hDate[i] = Hijrijs.lang['en'].ehgit;
+				 case accurate.utils.HijriJS.lang[accurate.utils.HijriJS.currentLanguage].ehgit:
+				 hDate[i] = accurate.utils.HijriJS.lang['en'].ehgit;
 				 break;
-				 case Hijrijs.lang[HijriJS.currentLanguage].nine:
-				 hDate[i] = Hijrijs.lang['en'].nine;
+				 case accurate.utils.HijriJS.lang[accurate.utils.HijriJS.currentLanguage].nine:
+				 hDate[i] = accurate.utils.HijriJS.lang['en'].nine;
 				 break;
 				 }
 				 }

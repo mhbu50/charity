@@ -1,7 +1,7 @@
 // Copyright (c) 2015, Frappe Technologies Pvt. Ltd. and Contributors
 // License: GNU General Public License v3. See license.txt
 
-// frappe.provide('erpnext');
+frappe.provide("accurate.utils");
 
 // add toolbar icon
 $(document).bind('toolbar_setup', function() {
@@ -11,16 +11,16 @@ $(document).bind('toolbar_setup', function() {
 });
 
 
-function getHijriDate(date) {
-	return HijriJS.toHijri(convertDate(date), "-").toString();
+accurate.utils.getHijriDate = function(date) {
+	return accurate.utils.HijriJS.toHijri(accurate.utils.convertDate(date), "-").toString();
 }
 
-function getHijriYear(date) {
-	var year = HijriJS.toHijri(convertDate(date), "-");
+ accurate.utils.getHijriYear = function(date) {
+	var year = accurate.utils.HijriJS.toHijri(accurate.utils.convertDate(date), "-");
 	return year.toFormat("yyyy").substring(2);
 }
 
-function convertDate(date) {
+accurate.utils.convertDate = function(date) {
   date = new Date(date);
   var yyyy = date.getFullYear().toString();
   var mm = (date.getMonth()+1).toString();
@@ -33,7 +33,7 @@ function convertDate(date) {
 }
 
 
-function getAge(age){
+accurate.utils.getAge = function(age){
         var yearThen = parseInt(age.substring(0,4), 10);
         var monthThen = parseInt(age.substring(5,7), 10);
         var dayThen = parseInt(age.substring(8,10), 10);
@@ -55,6 +55,6 @@ function getAge(age){
         }
         else {
             console.log("You are " + year_age + " years " + month_age + " months " + day_age + " days old");
-						return year_age;
+						return [year_age,month_age];
 				}
     };

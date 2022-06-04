@@ -3,24 +3,11 @@
 
 frappe.ui.form.on('Client', {
 	onload: function(frm) {
-		// if(frm.doc.date_of_birth){
-		// 	console.log("frm.doc.date_of_birth",frm.doc.date_of_birth);
-		// 	console.log("getAge(frm.doc.date_of_birth) =",getAge(frm.doc.date_of_birth));
-		// 	frm.set_value("age",getAge(frm.doc.date_of_birth));
-		// 	frm.refresh_field("age");
-		// }
+
 		frm.set_value("the_joining_period",parseInt(frappe.datetime.get_day_diff(frappe.datetime.nowdate(), frm.doc.date_of_joining ) /365));
 		frm.refresh_field("the_joining_period");
-		if(frm.doc.family_tree){
-		frm.doc.family_tree.forEach(function(d) {
-			frappe.model.set_value(d.doctype, d.name, "age", getAge(d.date_of_birth));
-		 });
-	 }
-	 	 if(frm.doc.family_members_not_included){
-		 frm.doc.family_members_not_included.forEach(function(d) {
- 			frappe.model.set_value(d.doctype, d.name, "age", getAge(d.date_of_birth));
- 		 });
-	 }
+
+
 		 //this check is not working
 		 if(frm.doc.__unsaved){
 			 frm.save();
@@ -28,16 +15,22 @@ frappe.ui.form.on('Client', {
 	},
 	date_of_joining: function(frm) {
 		var date = frm.doc.date_of_joining;
-		frm.set_value("h_date_of_joining",getHijriDate(date));
+		frm.set_value("h_date_of_joining",accurate.utils.getHijriDate(date));
 		frm.refresh_field("h_date_of_joining");
 
-		frm.set_value("age",getAge(frm.doc.date_of_birth));
+		frm.set_value("age",accurate.utils.getAge(frm.doc.date_of_birth)[0]);
 		frm.refresh_field("age");
 	},
 	date_of_birth: function(frm) {
 		var date = frm.doc.date_of_birth;
-		frm.set_value("h_date_of_birth",getHijriDate(date));
+		frm.set_value("h_date_of_birth",accurate.utils.getHijriDate(date));
 		frm.refresh_field("h_date_of_birth");
+		debugger
+		frm.set_value("age",accurate.utils.getAge(frm.doc.date_of_birth)[0]);
+		frm.refresh_field("age");
+
+		frm.set_value("age_month",accurate.utils.getAge(frm.doc.date_of_birth)[1]);
+		frm.refresh_field("age");
 
 	},
 	yearly_rent: function (frm) {
@@ -171,7 +164,7 @@ frappe.ui.form.on('Family Members', {
 		frappe.model.set_value(row.doctype, row.name, "h_date_of_birth1",getHijriDate(date));
 		frm.refresh_field("h_date_of_birth1");
 
-		frappe.model.set_value(row.doctype, row.name, "age", getAge(date));
+		frappe.model.set_value(row.doctype, row.name, "age", accurate.utils.getAge(date)[0]);
 		frm.refresh_field("age");
 	},
 	national_id1:function(frm, cdt, cdn) {
@@ -311,7 +304,7 @@ frappe.ui.form.on('Unincluded Dependent', {
 		frappe.model.set_value(row.doctype, row.name, "h_date_of_birth2",getHijriDate(date));
 		frm.refresh_field("h_date_of_birth2");
 
-		frappe.model.set_value(row.doctype, row.name, "age2", getAge(date));
+		frappe.model.set_value(row.doctype, row.name, "age2", accurate.utils.getAge(date)[0]);
 		frm.refresh_field("age2");
 
 },

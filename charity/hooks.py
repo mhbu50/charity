@@ -14,7 +14,7 @@ app_license = "MIT"
 
 # include js, css files in header of desk.html
 # app_include_css = "/assets/charity/css/charity.css"
-app_include_js = "/assets/js/charity.js"
+app_include_js = "charity.bundle.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/charity/css/charity.css"
@@ -109,25 +109,24 @@ app_include_js = "/assets/js/charity.js"
 # Scheduled Tasks
 # ---------------
 
-scheduler_events = {
-    "cron":
-        {"0/30 * * * * ? *":["charity.charity_management_system.tools.make_coupon"]},
-	"all": [
-		"charity.tasks.all"
-	],
-	"daily": [
-		"charity.tasks.daily"
-	],
-	"hourly": [
-		"charity.tasks.hourly"
-	],
-	"weekly": [
-		"charity.tasks.weekly"
-	],
-	"monthly": [
-		"charity.tasks.monthly"
-	],
-}
+# scheduler_events = {
+
+# 	"all": [
+# 		"charity.tasks.all"
+# 	],
+# 	"daily": [
+# 		"charity.tasks.daily"
+# 	],
+# 	"hourly": [
+# 		"charity.tasks.hourly"
+# 	],
+# 	"weekly": [
+# 		"charity.tasks.weekly"
+# 	],
+# 	"monthly": [
+# 		"charity.tasks.monthly"
+# 	],
+# }
 
 # Testing
 # -------
