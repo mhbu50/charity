@@ -1,0 +1,48 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2022-06-11 08:19:05.990095",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "modified": "2022-06-11 10:03:15.672000",
+ "modified_by": "Administrator",
+ "module": "charity management system",
+ "name": "Male Orphans",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "select c.name as '\u0631\u0642\u0645 \u0627\u0644\u0645\u0644\u0641:Link/Client:100',\nfm.full_name1 as '\u0627\u0644\u0627\u0633\u0645',\nfm.age as '\u0627\u0644\u0639\u0645\u0631',\nfm.social_status1 as '\u0627\u0644\u062d\u0627\u0644\u0629 \u0627\u0644\u0627\u062c\u062a\u0645\u0627\u0639\u064a\u0629'\nfrom tabClient c, `tabFamily Members` fm\nwhere c.name = fm.parent\nand gender1 = \"Male\"\nand fm.age > 18\nand fm.certificate1 = 0",
+ "ref_doctype": "Client",
+ "report_name": "Male Orphans",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "Research Committee"
+  },
+  {
+   "role": "Researcher"
+  },
+  {
+   "role": "Client Relations"
+  },
+  {
+   "role": "System Manager"
+  },
+  {
+   "role": "Reception"
+  },
+  {
+   "role": "Reviewer"
+  },
+  {
+   "role": "New Reception"
+  },
+  {
+   "role": "Admin User"
+  }
+ ]
+}
