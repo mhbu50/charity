@@ -15,7 +15,7 @@ app_license = "MIT"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/charity/css/charity.css"
 app_include_js = "charity.bundle.js"
-
+boot_session = "charity.charity_management_system.tools.boot_session"
 # include js, css files in header of web template
 # web_include_css = "/assets/charity/css/charity.css"
 # web_include_js = "/assets/charity/js/charity.js"

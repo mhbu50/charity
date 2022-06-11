@@ -1,6 +1,7 @@
 {
   "js/charity.js": [
     "public/js/conf.js",
-    "public/js/Hijri.js"
+    "public/js/Hijri.js",
+    "public/js/notification.js"
   ]
 }
