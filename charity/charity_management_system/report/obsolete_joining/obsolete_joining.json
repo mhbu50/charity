@@ -1,0 +1,27 @@
+{
+ "add_total_row": 1,
+ "columns": [],
+ "creation": "2023-01-14 07:57:03.914011",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "modified": "2023-01-14 07:57:03.914011",
+ "modified_by": "Administrator",
+ "module": "charity management system",
+ "name": "Obsolete Joining",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "SELECT rf.name as 'Request Number:Link/Request Form:150',\r\n rf.file_number as 'File Number:Data:150',\r\n rf.full_name as 'Full Name:Read Only:200',\r\n MAX(date_of_request) as 'Date of Request:Date:100',\r\n DATEDIFF(NOW(),rf.date_of_request) as 'Days Spent:Int:150' \r\nFROM `tabRequest Form` rf , `tabClient` c\r\nWHERE c.name = rf.file_number \r\nAND c.joining_type IN (\"\u0634\u0627\u0645\u0644\",\"\u0634\u0627\u0645\u0644 \u0645\u0624\u0642\u062a\",\"\u0643\u0641\u0627\u0644\u0629\",\"\u0645\u0624\u0648\u0646\u0629\") \r\nAND rf.file_number NOT IN \r\n(SELECT rf2.file_number FROM `tabRequest Form` rf2 WHERE  DATEDIFF(NOW(),date_of_request) <= 182) \r\nGROUP BY rf.file_number \r\nORDER BY rf.date_of_request DESC;",
+ "ref_doctype": "Request Form",
+ "report_name": "Obsolete Joining",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ]
+}

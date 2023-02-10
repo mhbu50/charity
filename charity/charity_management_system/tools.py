@@ -35,5 +35,8 @@ def stop_hoard():
         if str(client.end_date) == str(utils.today()):
             frappe.set_value('Client', client.name, 'joining_type',"موقوف")
 
-def test_print():
-    print("test")
+@frappe.whitelist()
+def get_entitlements(doc_name):
+    coupon = frappe.get_list("Coupon",filters={"file_number": doc_name},fields=["*"])
+    cheque_specification = frappe.get_list("Cheque Specification",filters={"file_number": doc_name},fields=["*"])
+    return {"coupon":coupon,"cheque_specification":cheque_specification}
