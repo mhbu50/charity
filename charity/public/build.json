@@ -2,6 +2,7 @@
   "js/charity.js": [
     "public/js/conf.js",
     "public/js/Hijri.js",
-    "public/templates/customer_entitlements.html"
+    "public/templates/customer_entitlements.html",
+    "public/js/notification.js"
   ]
 }

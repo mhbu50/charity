@@ -43,7 +43,7 @@
   }
  ],
  "links": [],
- "modified": "2021-10-06 23:43:16.035855",
+ "modified": "2022-06-11 08:33:46.811996",
  "modified_by": "Administrator",
  "module": "charity management system",
  "name": "Education Status",
@@ -95,5 +95,6 @@
  "quick_entry": 1,
  "sort_field": "modified",
  "sort_order": "DESC",
+ "title_field": "level_name",
  "track_changes": 1
 }
