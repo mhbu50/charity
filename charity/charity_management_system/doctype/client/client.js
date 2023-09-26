@@ -155,6 +155,8 @@ frappe.ui.form.on('Client', {
 	},
 
 });
+
+
 frappe.ui.form.on('Family Members', {
 	date_of_birth1: function(frm, cdt, cdn) {
 		var row = locals[cdt][cdn];
@@ -330,6 +332,7 @@ frappe.ui.form.on('Client Debt', {
 		
 		frm.set_value("total_monthly_installment", install);
 		frm.refresh_field("total_monthly_installment");
+		calculate_salary(frm);
 	},
 	debts_remove:function(frm){
 		var install = 0;
@@ -340,6 +343,18 @@ frappe.ui.form.on('Client Debt', {
 
 		frm.set_value("total_monthly_installment", install);
 		frm.refresh_field("total_monthly_installment");
+		calculate_salary(frm);
+	},
+	debts_add:function(frm){
+		var install = 0;
+        frm.doc.debts.forEach(function(d) {
+            install += d.monthly_installment;
+		});
+		debugger;
+
+		frm.set_value("total_monthly_installment", install);
+		frm.refresh_field("total_monthly_installment");
+		calculate_salary(frm);
 	}
 });
 
@@ -406,6 +421,8 @@ function calculate_salary(frm){
 	frm.set_value("average_monthly_income", (total - frm.doc.total_monthly_installment - frm.doc.one_month_rent)/frm.doc.total);
 	// frm.set_value("average_monthly_income", total / frm.doc.jobs.length);
 	frm.refresh_field("average_monthly_income");
+	frm.set_value("net_income", frm.doc.total_monthly_income - frm.doc.one_month_rent - frm.doc.total_monthly_installment);
+	frm.refresh_field("net_income");
 
 }
 

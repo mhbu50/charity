@@ -31,7 +31,7 @@
   }
  ],
  "links": [],
- "modified": "2021-11-14 20:00:13.412736",
+ "modified": "2023-09-15 11:26:26.933708",
  "modified_by": "Administrator",
  "module": "charity management system",
  "name": "Amount For Families",
@@ -53,5 +53,6 @@
  "quick_entry": 1,
  "sort_field": "family_count",
  "sort_order": "DESC",
- "track_changes": 1
+ "track_changes": 1,
+ "track_seen": 1
 }
