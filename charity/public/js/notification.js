@@ -1,6 +1,7 @@
 $(document).on('startup', function () {
 	// on startup
-	if (!frappe.boot.charity || frappe.get_route()[0] != "")
+	// if (!frappe.boot.charity || frappe.get_route()[0] != "")
+	if (!frappe.boot.charity  || frappe.get_route() != null)
 		return;
 	console.log("frappe.boot.charity.notification :", frappe.boot.charity.notification);
 	var rows = ""

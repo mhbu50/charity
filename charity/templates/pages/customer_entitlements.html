@@ -1,0 +1,62 @@
+
+{% if (coupon){ %}
+<table border="1" class="table table-bordered" width="100%">
+  <tbody><tr>
+    <th colspan="8" style="font-weight: bold;">الكوبونات</th>
+  </tr>
+  <tr>
+    <td style="font-weight: bold;">م</td>
+    <td style="font-weight: bold;">تاريخ الكوبون</td>
+    <td style="font-weight: bold;">الموديل</td>
+    <td style="font-weight: bold;">العدد</td>
+    <td style="font-weight: bold;">المبلغ الإجمالي</td>
+    <td style="font-weight: bold;">الشركة</td>
+  </tr>
+  {% for ( var row = 0; row < coupon.length; row++ ) { %}
+   <!-- <p>coupon[row].delivered =  {{coupon[row].delivered}}</p> -->
+    {% if (coupon[row].delivered){ %}
+    <tr>
+      <td>{{row+1}}</td>
+      <td>{{coupon[row].h_date_of_coupon || ""}}</td>
+      <td>{{coupon[row].item || ""}}</td>
+      <td>{{coupon[row].quantity || ""}}</td>
+      <td>{{coupon[row].total || ""}}</td>
+      <td>{{coupon[row].the_company || ""}}</td>
+    </tr>
+    {% } %}
+ {% } %}
+ </tbody>
+</table>
+ {% } %}
+
+
+
+
+{% if (cheque_specification){ %}
+<table border="1" class="table table-bordered" width="100%">
+  <tbody>
+    <tr>
+      <th colspan="7" style="font-weight: bold;">الشيكات</th>
+    </tr>
+  <tr>
+    <td style="font-weight: bold;">م</td>
+    <td style="font-weight: bold;">تاريخ إصدار الشيك</td>
+    <td style="font-weight: bold;">اقتراح اللجنة الإجتماعية</td>
+    <td style="font-weight: bold;">المبلغ الإجمالي</td>
+    <td style="font-weight: bold;">حالة الشيك</td>
+  </tr>
+
+   {% for ( var row = 0; row < cheque_specification.length; row++ ) { %}
+    {% if (cheque_specification[row].delivered){ %}
+      <tr>
+        <td>{{row+1}}</td>
+        <td>{{cheque_specification[row].h_date_of_issue || ""}}</td>
+        <td>{{cheque_specification[row].research_decision || ""}}</td>
+        <td>{{cheque_specification[row].cheque_amount || ""}}</td>
+        <td>{{cheque_specification[row].cheque_status || ""}}</td>
+      </tr>
+   {% } %}
+  {% } %}
+  </tbody>
+</table>
+{% } %}

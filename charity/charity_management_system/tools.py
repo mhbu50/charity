@@ -85,3 +85,30 @@ def boot_session(bootinfo):
         bootinfo["messages"] = [bootinfo["messages"]]
     bootinfo["messages"] = bootinfo.get("messages", [])
     return bootinfo
+
+def update_age():
+    clients = frappe.get_all("Client", fields=["*"])     
+    for c in clients:
+        client = frappe.get_doc("Client",c.name)
+        if client.date_of_birth:                       
+            days_in_year = 365.2425   
+            age = int((frappe.utils.getdate(frappe.utils.today()) - frappe.utils.getdate(client.date_of_birth) ).days / days_in_year)
+            # print("age = {}".format(age))
+            frappe.db.set_value("Client", client.name, "age", age)
+            frappe.get_doc(dict(
+            doctype = 'ToDo',
+            description ="client.name : "+client.name )).insert()
+        #print("client = {}".format(client))
+        if client.family_tree:
+            for ft in client.family_tree:
+                if ft.date_of_birth1:                       
+                    age = int((frappe.utils.getdate(frappe.utils.today()) - frappe.utils.getdate(ft.date_of_birth1) ).days / days_in_year)
+                    # print("{} age2 = {}".format(ft.full_name1,age))
+                    frappe.db.set_value("Family Members", ft.name, "age", age)
+
+        if client.family_members_not_included:
+            for fn in client.family_members_not_included:
+                if fn.date_of_birth2:                       
+                    age = int((frappe.utils.getdate(frappe.utils.today()) - frappe.utils.getdate(fn.date_of_birth2) ).days / days_in_year)
+                    # print("{} age2 = {}".format(fn.full_name2,age))
+                    frappe.db.set_value("Unincluded Dependent", fn.name, "age2", age)
