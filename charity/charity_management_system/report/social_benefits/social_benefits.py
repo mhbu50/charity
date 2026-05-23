@@ -99,7 +99,7 @@ def get_project(filters):
                 "amount": cs.cheque_amount,
                 "notes": cs.notes
             })
-            print "val = {}".format(val)
+            # print "val = {}".format(val)
             # out.append(val)
         # print "////////////////// out = {}".format(out)
     return out
