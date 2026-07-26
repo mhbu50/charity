@@ -1,10 +1,11 @@
+import re
 from setuptools import setup, find_packages
 
 with open("requirements.txt") as f:
 	install_requires = f.read().strip().split("\n")
 
-# get version from __version__ variable in charity/__init__.py
-from charity import __version__ as version
+with open("charity/__init__.py") as f:
+	version = re.search(r'__version__ = ["\']([^"\']+)["\']', f.read()).group(1)
 
 setup(
 	name="charity",
