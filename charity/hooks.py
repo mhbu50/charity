@@ -112,7 +112,7 @@ boot_session = "charity.charity_management_system.tools.boot_session"
 
 scheduler_events = {
     "cron":
-        {"0/30 * * * * ? *":["charity.charity_management_system.tools.make_coupon"]},
+        {"*/30 * * * *":["charity.charity_management_system.tools.make_coupon"]},
 	# "all": [
 	# 	"charity.tasks.all"
 	# ],
